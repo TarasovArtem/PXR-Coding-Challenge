@@ -1,0 +1,14 @@
+{
+  "author": "Artem Tarasov",
+  "description": "Technical Assignment for QA Engineers",
+  "scripts": {
+    "cypress": "cypress open",
+    "chrome": "cypress run --spec 'cypress/integration/**' --headless --browser chrome",
+    "firefox": "cypress run --spec 'cypress/integration/**' --headless --browser firefox",
+    "edge": "cypress run --spec 'cypress/integration/**' --headless --browser edge"
+  },
+  
+  "dependencies": {
+    "cypress": "^9.2.0"
+  }
+}
