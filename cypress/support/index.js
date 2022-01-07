@@ -19,4 +19,4 @@ import './commands'
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
 
-Cypress.Cookies.preserveOnce('CONSENT', 'NID', 'ANID', '1P_JAR');
+//Cypress.Cookies.preserveOnce('CONSENT', 'NID', 'ANID', '1P_JAR');
