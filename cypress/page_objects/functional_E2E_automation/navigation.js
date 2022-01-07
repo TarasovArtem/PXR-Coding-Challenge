@@ -6,5 +6,4 @@ export class Navigation {
         cy.contains('Ich stimme zu').click();
     }
 }
-
 export const navigation = new Navigation();
