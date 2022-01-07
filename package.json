@@ -7,8 +7,11 @@
     "firefox": "cypress run --spec 'cypress/integration/**' --headless --browser firefox",
     "edge": "cypress run --spec 'cypress/integration/**' --headless --browser edge"
   },
-  
   "dependencies": {
     "cypress": "^9.2.0"
+  },
+  "devDependencies": {
+    "mochawesome": "^7.0.1",
+    "mochawesome-merge": "^4.2.1"
   }
 }
