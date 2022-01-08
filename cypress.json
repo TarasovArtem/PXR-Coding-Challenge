@@ -2,6 +2,7 @@
     "chromeWebSecurity": false,
     "viewportWidth": 1280,
     "viewportHeight": 720,
+    "failOnStatusCode": false,
     "defaultCommandTimeout": 10000,
     "execTimeout": 60000,
     "requestTimeout": 15000,
