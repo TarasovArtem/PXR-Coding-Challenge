@@ -2,7 +2,7 @@
 
 export class NavigateToPxr {
     careersLink() {
-        cy.contains('Careers').click();
+        cy.get('a.l').contains('Careers').click({force: true});
         cy.url().should('eq', 'https://pxr-legal.com/en/careers');
     }
 
