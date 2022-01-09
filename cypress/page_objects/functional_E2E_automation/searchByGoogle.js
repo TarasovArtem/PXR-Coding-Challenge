@@ -13,7 +13,7 @@ export class SearchByGoogle {
             expect($results).to.contain('PXR Legal Rechtsanwaltsgesellschaft mbH, Berlin - North Data')
             expect($results).to.contain('PXR Legal Rechtsanwaltsgesellschaft mbH - Berlin')
             expect($results).to.contain('PXR - azur')
-            expect($results).to.contain('PXR Legal Rechtsanwaltsgesellschaft mbH - Firmenwissen')
+            expect($results).to.contain('PXR Legal Rechtsanwaltsgesellschaft mbH ')
         });
     }
 }
