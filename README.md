@@ -1,17 +1,16 @@
-### Commands for running tests
-
 #### Description
 
 ##### Task 1: Functional E2E Automation
 
-    Functional automation for web UI testing using Cypress.
+    Functional automation for web UI testing using Cypress
 
 
 ##### Task 2: Functional API Testing
 
-    Functional automation for API testing using Cypress. 
+    Functional automation for API testing using Cypress
 
 
+### Commands for running tests and files structure
 
 #### Installation
 
@@ -51,10 +50,10 @@ or
 
 #### Project Object files structure
 
-    ./cypress/page_objects/requests.js
-    ./cypress/page_objects/navigateToPXR.js
-    ./cypress/page_objects/navigation.js
-    ./cypress/page_objects/searchByGoogle.js
+    ./cypress/page_objects/functional_API_testing/requests.js
+    ./cypress/page_objects/functional_E2E_automation/navigateToPXR.js
+    ./cypress/page_objects/functional_E2E_automation/navigation.js
+    ./cypress/page_objects/functional_E2E_automation/searchByGoogle.js
 
 
 #### Reports (***HTML and JSON format files***)
